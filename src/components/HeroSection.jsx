@@ -2,6 +2,8 @@ import React from 'react'
 import StartHere from './StartHere'
 import Rating from './Rating'
 import Journey from './Journey'
+import Explore from './Explore'
+
 
 const HeroSection = () => {
   return (
@@ -9,6 +11,7 @@ const HeroSection = () => {
         <StartHere/>
         <Rating/>
         <Journey/>
+        <Explore/>
     </div>
   )
 }
